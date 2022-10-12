@@ -1,0 +1,51 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.main-header {
+    padding-top: 17em;
+    padding-bottom: 17em;
+    margin-bottom: 0;
+    background-color: black;
+    background-image: url('assets/img/band-mobile.jpg');
+    background-position: 50% 0;
+}
+@media (min-width: 768px) {
+    .main-header {
+        background-image: url('assets/img/band.jpg');
+    }
+}
+
+.main-header p:last-child {
+    margin-bottom: 0;
+}
+
+.main-header-heading {
+    font-weight: 300;
+}
+
+.main-header .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+/**************/
+.card-body {
+    background: black;
+}
+
+.card {
+    border: 0px;
+}
