@@ -3,8 +3,8 @@
 }
 
 .main-header {
-    padding-top: 17em;
-    padding-bottom: 17em;
+    padding-top: 7em;
+    padding-bottom: 22em;
     margin-bottom: 0;
     background-color: black;
     background-image: url('assets/img/band-mobile.jpg');
@@ -42,10 +42,37 @@ footer p {
 
 
 /**************/
+body {
+    background: black;
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5a6268;
+}
+
 .card-body {
     background: black;
 }
 
 .card {
     border: 0px;
+}
+
+.logo-img {
+    width: 150px;
+    margin-bottom: 10em;
+}
+
+@media (min-width: 768px) {
+    .logo-img {
+        width: 250px;
+        margin-bottom: 0px;
+    }
 }
