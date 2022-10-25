@@ -122,3 +122,13 @@ a:hover {
         padding-bottom: 22em;
     }
 }
+
+.social-icon {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.social-icon:first-child {
+    margin-left: 0;
+}
