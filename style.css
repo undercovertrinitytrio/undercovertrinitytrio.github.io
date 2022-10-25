@@ -2,6 +2,10 @@ body {
     font-family: Abel;
 }
 
+h2 {
+    margin-bottom: 1em;
+}
+
 :root {
     --jumbotron-padding-y: 3rem;
 }
@@ -78,6 +82,7 @@ a:hover {
 
 .card-body {
     background: black;
+    padding: 0px !important;
 }
 
 .card {
