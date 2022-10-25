@@ -8,15 +8,17 @@ body {
 
 .main-header {
     padding-top: 22em;
-    padding-bottom: 7em;
     margin-bottom: 0;
     background-color: black;
     background-image: url('assets/img/band-mobile.jpg');
     background-position: 50% 0;
+    background-size: contain;
 }
 @media (min-width: 768px) {
     .main-header {
+        padding-bottom: 7em;
         background-image: url('assets/img/band.jpg');
+        background-size: auto;
     }
 }
 
