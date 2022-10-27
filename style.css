@@ -140,3 +140,13 @@ a:hover {
 .social-icon:first-child {
     margin-left: 0;
 }
+
+.social {
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.social a {
+    display: block;
+    margin-bottom: 1em;
+}
